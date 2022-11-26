@@ -1,0 +1,143 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.body {
+    font-family: 'Roboto', sans-serif;
+    color: hsl(240, 0%, 10%);
+}
+
+/*.a:hover {
+    text-decoration: underline;
+}
+
+.a:active {
+    color: rgb(55, 55, 174);
+
+}
+a:visited {
+    color: rgb(55, 55, 179);
+}*/
+
+.intro {
+    font-size: 60px;
+    letter-spacing: 3px;
+    margin-left: 70px;
+}
+
+
+.img {
+    width: 460px;
+    border-radius: 6%;
+    margin-right: 40px;
+}
+
+
+
+.body-box {
+    max-width: 70%;
+    margin: auto;
+    background-color: #f5f5dc ;
+}
+
+.box1 {
+    background-color: #d3e2f1;
+    position: relative;
+
+    max-width: 60%;
+    margin: 40px;
+    margin-top: 150px;
+    border-radius: 6%;
+
+
+}
+
+
+
+.overlay {
+    position: absolute;
+    bottom: 0px;
+    overflow: hidden;
+    background-color: #5b7d9888;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+    border-radius: 6%;
+}
+
+
+.box1:hover .overlay {
+
+    height: 100%;
+
+
+
+}
+.overlay h1 {
+    position: absolute;
+    padding-top: 0;
+    padding-left: 30px;
+
+}
+
+
+.box1 h3 {
+    padding: 40px;
+
+}
+
+.box2 {
+    background-color: #f2e6d0;
+    margin-right: 40px;
+    border-radius: 6%;
+    margin-top: 70px;
+    position: relative;
+
+
+}
+.box2 h3 {
+    padding: 40px;
+}
+.overlay2 h2 {
+    position: absolute;
+    padding-top: 0;
+    padding-left: 30px;
+}
+
+.box2:hover .overlay2 {
+
+    height: 100%;
+
+
+
+}
+
+
+
+.overlay2 {
+    position: absolute;
+    bottom: 0px;
+    overflow: hidden;
+    background-color: #e9487b7b;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+    border-radius: 6%;
+}
+.box3 {
+    background-color: aquamarine;
+    widht
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
